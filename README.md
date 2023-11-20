@@ -1,5 +1,4 @@
-Some fixes
-
+Sometimes, on older versions of Linux systems, an error appears when the touchpad does not work. Here are some tips to fix it.
 ## Step 1 
 sudo nano /etc/default/grub
 
