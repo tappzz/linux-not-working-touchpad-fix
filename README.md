@@ -10,5 +10,7 @@ Sometimes, on older versions of Linux systems, an error appears when the touchpa
 
 >sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
-Reboot your computer
+Reboot your computer.
+
+to be continued
 
