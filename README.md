@@ -1,9 +1,14 @@
 Sometimes, on older versions of Linux systems, an error appears when the touchpad does not work. Here are some tips to fix it.
-## Step 1 
-sudo nano /etc/default/grub
 
-GRUB_CMDLINE_LINUX_DEFAULT="i8042.nopnp=1 pci=nocrs"
+### Open the GRUB default kernel boot parameters by typing
+>sudo nano /etc/default/grub
 
-## Step 2
+### Then add the following line and save the file
+>GRUB_CMDLINE_LINUX_DEFAULT="i8042.nopnp=1 pci=nocrs"
 
-sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+## Rebuild /boot/grub2/grub.cfg by adding the following line: 
+
+>sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+
+Reboot your computer
+
