@@ -12,5 +12,9 @@ Sometimes, on older versions of Linux systems, an error appears when the touchpa
 
 Reboot your computer.
 
-to be continued
+### You can also check which drivers are required for your touchpad. Usually, these are Synaptics and Elantech
+>xinput list
+
+### Once you have found out the model of your touchpad driver, you can try installing or reinstalling it
+
 
